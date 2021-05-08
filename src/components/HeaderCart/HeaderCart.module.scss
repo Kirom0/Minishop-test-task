@@ -1,0 +1,39 @@
+.container {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  height: 100%;
+
+  .body {
+    position: relative;
+    display: flex;
+    justify-content: flex-end;
+
+    .img {
+      width: 42px;
+      height: 42px;
+    }
+
+    .count {
+      position: absolute;
+      display: flex;
+      justify-content: center;
+      flex-direction: column;
+      text-align: center;
+      color: white;
+      width: 34px;
+      height: 21px;
+      top: 7px;
+      left: 8px;
+    }
+
+    .amount {
+      margin-left: 10px;
+      display: inline-flex;
+      justify-content: center;
+      flex-direction: column;
+    }
+  }
+
+  
+}

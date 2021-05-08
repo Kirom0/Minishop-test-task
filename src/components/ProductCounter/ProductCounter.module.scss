@@ -1,0 +1,18 @@
+.smallbutton {
+  height: 28px;
+  width: 28px;
+}
+
+.count {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 120px;
+  @media (max-width: 425px) {
+    width: 40px;
+  }
+  height: 28px;
+  text-align: center;
+  vertical-align: middle;
+  border: 1px solid black;
+}

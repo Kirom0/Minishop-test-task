@@ -1,0 +1,47 @@
+.container {
+  max-width: 400px;
+  min-width: 300px;
+
+  border: 2px solid black;
+  padding: 10px 0;
+
+  .cardimg {
+    display: flex;
+    justify-content: center;
+    .img {
+      max-width: 390px;
+      width: 90%;
+    }
+  }
+  
+
+  .cardbody {
+    .name {
+      margin: 10px 0;
+      display: block;
+      text-align: center;
+    }
+    .price {
+      color: green;
+      margin: 10px 0;
+      display: block;
+      text-align: center;
+    }
+    .button_content {
+      display: flex;
+      justify-content: center;
+      margin: 10px 0;
+
+      .addbutton {
+        background: red;
+        color: white;
+        border: 2px soldi black;
+        cursor: pointer;
+        width: 120px;
+        height: 28px;
+
+        font-size: 12px;
+      }
+    }
+  }
+}
