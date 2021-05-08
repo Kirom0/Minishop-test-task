@@ -13,7 +13,7 @@ Minishop-test-task - React приложение написанное в каче
 + Управление данными - `Redux`, `react-redux` - https://github.com/reduxjs/redux, https://github.com/reduxjs/react-redux
 + Сборщик - `Webpack` - https://github.com/webpack/webpack
 + Язык - `TypeScript` - https://github.com/Microsoft/TypeScript
-+ Определение банка по БИН - `card-info` - github.com/iserdmi/card-info
++ Определение банка по БИН - `card-info` - https://github.com/iserdmi/card-info
 
 
 ## Установка
