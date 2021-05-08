@@ -31,6 +31,7 @@ const ProductCard : React.FC<ProductCardProps> = ({product, count = 0}) => {
         <img
           className={styles.img}
           src={product ? product.imgUrl : "https://wod-public-images.s3.us-east-2.amazonaws.com/6_403cfc46-d356-49a8-83cd-3b1555b34976.jpg"}
+          alt={product.name}
         />
       </div>
       
